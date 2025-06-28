@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-class otpScreen extends StatefulWidget {
-  const otpScreen(Future<void> sendOtp, {super.key});
+class OtpScreen extends StatefulWidget {
+  const OtpScreen(Future<void> sendOtp, {super.key});
 
   @override
-  State<otpScreen> createState() => _otpScreenState();
+  State<OtpScreen> createState() => _OtpScreenState();
 }
 
-class _otpScreenState extends State<otpScreen> {
+class _OtpScreenState extends State<OtpScreen> {
   final List<TextEditingController> _otpDigitControllers = List.generate(6, (_) => TextEditingController(),);
 
   @override

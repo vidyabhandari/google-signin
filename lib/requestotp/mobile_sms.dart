@@ -133,7 +133,7 @@ class _MobilesmsState extends State<Mobilesms> {
                     final mobile = getFullMobileNumber();
                     if (mobile.length == 10) {
                       Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => otpScreen(sendOtp(mobile))),
+                        MaterialPageRoute(builder: (context) => OtpScreen(sendOtp(mobile))),
                       );
                     } else {
                       setState(() {
