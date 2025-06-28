@@ -1,0 +1,1 @@
+const String apiUrl = 'https://api.translife.pro/api';

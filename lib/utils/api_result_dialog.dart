@@ -7,7 +7,7 @@ class ApiResultDialog {
     required BuildContext context,
     required String title,
     required String description,
-    String confirmButton = 'OK'}) {
+    String confirmButton = 'OK', }) {
     showDialog(
       context: context,
       builder: (BuildContext context) =>
