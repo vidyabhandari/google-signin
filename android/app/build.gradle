@@ -30,15 +30,6 @@ android {
         versionName =  "1.0.0"
     }
 
-    signingConfigs {
-      debug {
-            keyAlias 'test'
-            keyPassword 'qwerty'
-            storeFile file('test.jks')
-            storePassword 'qwerty'
-        }
-    }
-
     buildTypes {
         debug {
             // TODO: Add your own signing config for the release build.
